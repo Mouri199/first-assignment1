@@ -352,6 +352,28 @@ line-height: 30px;
 padding-left: 605px;
 }
 
+.form{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.form-btn{
+    border: 0px;
+    border-radius: 8px;
+    background-color: #E55473;
+    color: #FFF;  
+    font-size: 20px;
+    font-weight: 700;
+    width: 150px;
+    height: 65px;
+}
+
+#email{
+    width: 700px;
+    border-radius: 8px;
+}
 /* Footer section style*/
 
 .footer{
@@ -394,3 +416,4 @@ padding-left: 605px;
     font-size: 16px;
     font-weight: 400;
 }
+
