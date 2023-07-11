@@ -1,0 +1,396 @@
+body{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* Nav related style*/
+
+nav{
+    background: #FFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-title{
+    color: #272727;
+    font-size: 45px;
+    font-weight: 300;
+}
+
+nav > ul{
+    display: flex;
+    align-items: center;
+}
+
+nav li{
+    list-style: none;
+    margin: 50px;
+}
+
+nav a{
+    text-decoration: none;
+    color: rgba(39, 39, 39, 0.60);
+}
+
+span{
+    padding-left: 150px;
+}
+/*header related style*/
+
+.header{
+    background-color: rgba(167, 33, 98, 0.15);
+    width: 1920px;
+    height: 850px;
+
+}
+
+.banner{  
+    padding: 0 800px 0 150px;
+    display: flex;
+    gap: 100px;
+  
+}
+
+
+.banner-title{
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+    display: flex;
+    width: 708px;
+    flex-direction: column;
+    margin-bottom: 0;
+    margin-top: 160px;
+    
+}
+
+.banner-info{
+    color: rgba(39, 39, 39, 0.60);
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+display: flex;
+width: 634px;
+flex-direction: column;
+
+}
+
+.btn-primary{
+    border: 0px;
+    border-radius: 8px;
+    background-color: #E55473;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 20px 43px;
+}
+
+.banner-image{
+    width: 500px;
+    height: 650px;
+    padding-top: 50px;
+}
+
+/*header section End*/
+
+
+/*main section Style*/
+.collection-header{
+color: #272727;
+font-size: 40px;
+font-weight: 800;
+padding-left: 764px;
+margin-top: 170px;
+margin-bottom: 0;
+}
+
+.collection-info{
+    display: flex;
+    width: 594px;
+    flex-direction: column;color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-left: 650px;
+}
+
+.image-section{
+    display: flex;
+    padding-left: 240px;
+    padding-top: 100px;
+    padding-bottom: 190px;
+    gap: 30px;
+}
+
+.pink-image{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    width: 464px;
+    height: 538px;
+    
+}
+
+.pink-image img{
+    width: 310px;
+    height: 428px;
+    padding: 110px 78px 0 78px;
+}
+
+.green-image{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    width: 464px;
+    height: 538px;
+}
+
+.green-image img{
+    width: 370px;
+    height: 370px;
+    padding: 117px 47px 51px 47px;
+}
+
+.yellow-image{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    width: 464px;
+    height: 538px;
+}
+
+.yellow-image img{
+    width: 314px;
+    height: 471px;
+    padding: 67px 75px 0 75px;
+}
+
+.collection-link {
+    color: #272727;
+text-align: center;
+font-size: 24px;
+font-weight: 700;
+line-height: 35px;
+text-decoration-line: underline;
+
+}
+.icon{
+    padding-bottom: 130px;
+    padding-left: 240px;
+}
+
+.icon-section{
+    display: flex;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    width: 1440px;
+    height: 320px;
+    padding-top: 100px;
+    gap: 120px;
+  
+}
+
+.icon-info{
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 24px;
+
+}
+
+.delivery{
+    padding-left: 180px;
+    padding-top: 30px;
+}
+
+/*Sign up style*/
+
+.sign{
+    width: 1922px;
+    height: 620px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    margin-bottom: 130px;
+  
+}
+
+
+.sign-up{
+    display: flex;
+    justify-content: center;
+}
+
+.sign img{
+    width: 318px;
+    height: 420px;
+    padding-left: 300px;
+    padding-top: 100px;
+    padding-right: 400px;
+}
+
+.sign-title{
+    color: #272727;
+    margin-left: 400px;
+    margin-top: 230px;
+    margin-bottom: 0;
+    font-size: 40px;
+    font-weight: 800;
+    
+}
+
+.sign-info{
+    color: rgba(39, 39, 39, 0.60);
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-left: 390px;
+}
+
+.primary{
+    border: 0px;
+    border-radius: 8px;
+    background-color: #E55473;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 20px 43px;
+}
+
+.button{
+    padding-top: 30px;
+    padding-left: 500px;
+}
+
+/*Instagram styles*/
+.insta-title{
+    color: #272727;
+font-size: 40px;
+font-weight: 800;
+padding-left: 870px;
+margin-bottom: 0;
+}
+
+.insta-info{
+    display: flex;
+width: 594px;
+flex-direction: column;
+color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+padding-left: 663px;
+margin-bottom: 48px;
+}
+
+.insta-img{
+    padding-left: 240px;
+    margin-bottom: 125px;
+}
+
+.img-section{
+    display: flex;
+    gap: 25px;
+}
+
+/*review styles*/
+
+.review-title{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    padding-left: 800px;
+    margin-bottom: 0;
+}
+
+.re-info{
+    display: flex;
+    width: 594px;
+    flex-direction: column;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-left: 663px;
+    margin-bottom: 48px; 
+}
+
+.review{
+    margin-bottom: 130px;
+}
+
+.review img{
+    width: 1922px;
+    height: 620px;
+}
+/* Subscribe style*/
+
+.subscribe{
+   background: url("Rectangle 9.png");
+   background-size: cover;
+   width: 1440px;
+   height: 440px;
+}
+
+.sub-section{
+    padding-left: 240px;
+}
+.sub-title{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    padding-top: 122px;
+    padding-left: 533px;
+    margin-bottom: 0;
+}
+.sub-info{
+    color: rgba(39, 39, 39, 0.60);
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+padding-left: 605px;
+}
+
+/* Footer section style*/
+
+.footer{
+    background-color: #a35b6a;
+    width: 1922px;
+    height: 449px;
+    margin-top: 110px;
+}
+
+.footer-title{
+    color:#FFF;
+    font-size: 48px;
+    font-weight: 800;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    margin-top: 120px;
+
+}
+
+.footer-info{
+    width: 625px;
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0 auto;
+    display: block;
+
+}
+.footer-information{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.copy-site{
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
